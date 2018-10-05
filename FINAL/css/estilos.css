@@ -5,6 +5,8 @@ body{
   background-image: url("../image/fondo.jpg");
   background-size: cover;
   font-family: 'Poppins', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .fondo{
   position: relative;
@@ -43,6 +45,7 @@ body{
 .teclado img{
   width: 22%;
   height: 62.91px;
+  cursor: pointer;
 }
 @font-face {
   font-family: digital;
